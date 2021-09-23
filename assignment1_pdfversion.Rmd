@@ -11,10 +11,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## describe the data and discuss what you have learned in this very simple exploration.
 
-In this document, I learned how to use tidyverse to handle the dataset and use ggplot to display the graph I need. Also, source is a very powerful function to use R script file in RMD.
+In this document, I learned how to use tidyverse to handle the dataset and use ggplot to display the graph I need. Also, source is a very powerful function to use R script file in RMD. For the description of the data, please see the "#" in the chunk.
 
 
 ```{r}
+#The data was extracted from the 1974 Motor Trend US magazine, 
+#and comprises fuel consumption and 10 aspects of automobile design 
+#and performance for 32 automobiles (1973--74 models).
 library(tidyverse)
 
 # call built-in data mtcars.
